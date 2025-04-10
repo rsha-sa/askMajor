@@ -1,0 +1,33 @@
+.rootLayouts {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+
+  header{
+    text-align: center;
+    padding: 15px 0;
+    background-color: #282b309b;
+    color: #e2e2e2e8;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    .logo{
+        display: flex;
+        align-items: center;
+        font-weight: bold;
+        font-size: 30px;
+        gap: 10px;
+        img{
+            height: 50px;
+            width: 50px;
+        }
+    }
+  }
+
+  main{
+    flex: 1;
+    overflow: hidden;
+  }
+
+}
